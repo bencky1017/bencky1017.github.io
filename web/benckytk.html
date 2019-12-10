@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>通信17专用网盘</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="keywords" content="通信17专用网盘">
+    <meta name="keywords" content="吟风">
+    <link type="text/css" href="css/css.css" rel="stylesheet" />
+</head>
+<body>
+    <script type="text/javascript">
+        function password() {
+            var testV = 1;
+            var pass1 = prompt('确认您的身份：请输入密码', '');
+            while (testV <= 1) {
+                if (!pass1)
+                    history.go(-1);
+                if (pass1 == "通信17") {//设置密码
+                    alert('口令正确，进行跳转');
+                    window.location.href = "https://bencky.tk";//添加你要跳转的页面
+                    break;
+                }
+                testV += 1;
+                var pass1 =
+                    prompt('对不起，密码错误，您的身份不符\n请关闭网页重试', '');
+            }
+            if (pass1 != "password" & testV > 1)
+                history.go(-1);
+            return " ";
+        }
+        document.write(password());
+    </script>
+</body>
+</html>
