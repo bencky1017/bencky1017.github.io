@@ -4,7 +4,6 @@
 					<p><script charset="utf-8" type="text/javascript" src="https://likinming.com/content/plugins/kl_data_call/kl_data_call_do.php?ID=2"></script></p>
 				</div>
 			</div>
-
 			<div class="panel panel-default">
 				<div class="panel-heading">短网址API接口文档</div>
 				<div class="panel-body">
