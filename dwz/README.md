@@ -40,13 +40,17 @@
 		<h3 id="un">还原短网址</h3>
 		<li>接口地址：https://apis.eps.gs/un.php</li>
 		<li>请求方式：GET</li>
-		<li>响应：（json） </li>
+		<li>响应：（json） </li><!--
 		<pre>
 			<xmp>
 				{"url_short":"","url_long":"","error":"0"}
 				##url_short为还原前的短网址，url_long为还原后的长网址
 			</xmp>
-		</pre>
+		</pre>-->
+		```C
+		{"url_short":"","url_long":"","error":"0"}
+				##url_short为还原前的短网址，url_long为还原后的长网址
+		```
 		<li>提交参数：（GET提交）</li>
 		<li>url （还原前的短网址）</li>
 		<li>返回参数（json返回）：</li>
@@ -54,14 +58,19 @@
 		<li>url_long （还原后的长网址）</li>
 		<li>error（正确返回0，如出错返回错误代码）</li>
 		<li>PS:当error为0时，表明生成成功，如返回其他字符，表示错误代码</li>
-		<h4>php生成示例：</h4>
+		<h4>php生成示例：</h4><!--
 		<pre>
 			<xmp>
 				<?php $return=file_get_contents('https://apis.eps.gs/un.php?url=短网址');
 				$result=json_decode($return); //转化为数组 
 				echo $result->url_long; //显示还原后的长网址
 			</xmp>
-		</pre>
+		</pre>-->
+		```C
+		<?php $return=file_get_contents('https://apis.eps.gs/un.php?url=短网址');
+				$result=json_decode($return); //转化为数组 
+				echo $result->url_long; //显示还原后的长网址
+		```
 		<h3 id="more">网站随意调用短网址生成功能：</h3>
 		<pre>
 			<xmp>
