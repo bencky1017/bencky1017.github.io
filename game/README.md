@@ -13,5 +13,7 @@
 - [飞机大战](https://bencky1017.github.io/game/planewar)
 - [围住神经猫](https://bencky1017.github.io/game/NeverCat)
 - [维京战争](https://bencky1017.github.io/game/VikingWars)
+- [辨色小游戏](https://bencky1017.github.io/game/color)
+- [](https://bencky1017.github.io/game/)
 
 ---
