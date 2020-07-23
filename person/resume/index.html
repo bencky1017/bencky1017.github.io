@@ -12,8 +12,12 @@
 		<div class="main">
 			<img class="bk" src="img/bk.png"/>
 			<div class="name"><!-- 基本信息 -->
-				<h1>陈本奇</h1>
-				<p>Bencky Chan</p>
+				<table>
+					<tr>
+						<td><h1>陈本奇</h1><p>Bencky Chan</p></td>
+						<td><img class="qrcode" src="img/qrcode.jpg"/></td>
+					</tr>
+				</table>
 				<span class="career" style="color:black">
 					<p>求职意向：前端工程师（实习生）</p>
 				</span>
@@ -165,9 +169,13 @@
 							<p>◆有较强的独立思考分析能力，善于沟通管理；</p>
 							<p>◆踏实刻苦，动手能力强，富有集体荣誉感。</p>
 						</span>
+						<span class="link-span">
+							<img class="link" src="img/link.png"/>
+							<p>简历已上传Github</p>
+						</span>
 					</div>
 				</div>
-				<div class="end mdiv"><!-- 最后结束语 -->
+				<div class="ending mdiv"><!-- 最后结束语 -->
 					<p>感谢您百忙之中垂阅本人简历！</p>
 				</div>
 			</div>
@@ -184,6 +192,9 @@
 	}
 	.loading{
 		background-color: #eee;
+	}
+	.qrcode{
+		display: none;
 	}*/
 	/*打印删除*/
 
@@ -194,6 +205,18 @@
 	h3{
 		margin-top: 10px;
 	}
+	.qrcode{
+		position: relative;
+		left: 20px;
+		width: 40px;
+		height: 40px;
+		transform-origin: 0% 0%;
+		/*transform: scale(1);*/
+		transition: all 0.3s;
+	}
+	.qrcode:hover{
+		transform:scale(5);
+	}
 	.wrapper{
 		position: absolute;
 		margin-top: 0;
@@ -203,7 +226,7 @@
 		background-color: #757581;*/
 	}
 	.main{
-		margin-left: 10%;
+		margin-left: 5%;
 		margin-top: 100px;
 		width: 1140px;
 		height: 1600px;
@@ -282,13 +305,22 @@
 	.progress{
 		display: inline-block;
 	}
-	.end{
+	.ending{
 		margin-left: 360px;
 		width: 400px;
 		text-align: center;
 		font-size: 20px;
 		font-weight: 700;
 		color: rgba(0,0,0,0.3);
+	}
+	.link-span{
+		position: absolute;
+		right: 200px;
+		bottom: 320px;
+	}
+	.link{
+		width: 150px;
+		height: 150px;
 	}
 </style>
 </html>
