@@ -135,7 +135,7 @@ section{
 #info p{
 	padding: 10px;
 }
-.row a:hover{
+#info a:hover{
 	color: #fff;
 	background: #58a6fb;
 }
