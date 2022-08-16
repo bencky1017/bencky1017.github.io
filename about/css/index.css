@@ -8,6 +8,10 @@ a{
 	color: #58a6fb;
 	text-decoration: none;
 }
+:root{
+	--leftside-width: 200px;
+	--head-kent:96px;
+}
 
 
 /* - 侧边栏 */
@@ -16,7 +20,7 @@ a{
 	left: 0;
 	bottom: 0;
 	color: #fff;
-	width: 250px;
+	width: var(--leftside-width);
 	position: fixed;
 	overflow: hidden;
 	overflow-y: auto;
@@ -25,9 +29,9 @@ a{
 
 /* -- 头像 */
 .sidebar .kent{
-	width: 120px;
-	height: 120px;
-	margin: 2em auto;
+	width: var(--head-kent);
+	height: var(--head-kent);
+	margin: 3em auto;
 	background: #fff;
 	border-radius: 50%;
 	border: #ddd 3px solid;
@@ -38,8 +42,8 @@ a{
 }
 .sidebar .kent img{
 	border-radius: 100%;
-	width: 120px;
-	height: 120px;
+	width: var(--head-kent);
+	height: var(--head-kent);
 }
 
 /* -- 侧边栏导航 */
@@ -91,8 +95,8 @@ a{
 	content:"更新";
 }*/
 
-/*主区块main*/
 
+/*主区块main*/
 .wrap{
 	margin-left:auto;
 	margin-right: auto;
@@ -101,7 +105,7 @@ a{
 	padding: 0px 10px;
 }
 .mainpart {
-	margin-left: 250px;
+	margin-left: var(--leftside-width);
 	background: #f7f7f7;
 
 }
@@ -127,18 +131,24 @@ section{
 	/*margin-left: -1.25em;*/
 	/*margin-right: -1.25em;*/
 }
+.row:nth-child(1){
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: space-between;
+
+}
 .col-l-4{
-	-ms-flex: 0 0 33%;
-	flex: 0 0 33%;
-	max-width: 33%;
+	/*-ms-flex: 0 0 33%;*/
+	/*flex: 0 0 33%;*/
+	width: 33%;
 }
-#info p{
-	padding: 10px;
-}
-#info a:hover{
-	color: #fff;
-	background: #58a6fb;
-}
+.col-l-4:nth-child(1){min-width: 200px;}
+.col-l-4:nth-child(2){min-width: 250px;}
+.col-l-4:nth-child(3){min-width: 300px;}
+
+/*几个模块的颜色设置*/
 #info{
 	background: #343d46;
 	color: #fff;
@@ -158,6 +168,20 @@ section{
 	color: #fff;
 }
 
+/*个人资料的间距*/
+#info p{
+	padding: 10px;
+}
+/*链接hover*/
+#info a:hover{
+	color: #fff;
+	background: #58a6fb;
+}
+#stamp a:hover{
+	text-decoration: underline;
+}
+
+
 /*@media screen and (max-width: 900px) {
 	.sidebar {
 		width: inherit;
@@ -166,7 +190,7 @@ section{
 	.sidebar .nav{
 		background: #f8bd24;
 		flex-direction: row;
-		justify-timestamp: center;
+		justify-content: center;
 	}
 	.sidebar .nav a:hover{
 		background: none;
@@ -177,18 +201,76 @@ section{
 	}
 }*/
 
+/*全部作品*/
+/*.row:nth-child(3){*/
+#work .row{
+	display: grid;/*网格布局*/
+	grid-template-columns: repeat(4,1fr);
+}
+.webworklist{
+	width: 90%;
+	min-width: 200px;
+	height: 130px;
+	background-color: #fff;
+	margin: 10px 10px;
+	border-radius: 10px;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+.webworklist img{
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
+.list-item{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 30px;
+	background-color: #000c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	transition: height 0.3s;
+}
+.webworklist:hover .list-item{
+	height: 100%;
+	transition: height 0.2s;
+}
+.item-mask{
+	display: none;
+	padding: 12px;
+	font-size: 12px;
+}
+.list-item:hover .item-mask{/*触碰后显示蒙版*/
+	display: block;
+}
+
+
+
+
+/*时间轴*/
+.row:nth-child(5){
+	display: block;
+}
 
 .timestamp{
 	position:relative;
 	margin:0 auto;
 }
 .timestamp{
+	min-width: 900px;
 	width:100%;
-	min-height:720px;
+	min-height:740px;/*限制高度*/
 }
 .stampbg{
 	position:relative;
-	background:url("../img/release-bg.png") no-repeat right top;
+	background:url("../img/release-bg.png") repeat-y right top;
 	/*width:960px;*/
 	margin:0 auto;
 }
@@ -217,18 +299,6 @@ section{
 	height:100%;
 	top:0;
 	background:url("../img/light.png") no-repeat top center;
-}
-.line-left{
-	position:absolute;
-	left:0;
-	top:18px;
-	width:60px;
-}
-.line-right{
-	position:absolute;
-	left: 390px;
-	top:18px;
-	width:560px;
 }
 .listwrap{
 	background:url("../img/line-bg.png") repeat-y 249px 0;
@@ -296,8 +366,8 @@ section{
 	bottom:0;
 }
 .list ul li{
-	background:url("../img/circle.png") no-repeat 235px 30px;
-	padding:30px 0;
+	background:url("../img/circle.png") no-repeat 235px 15px;
+	padding:15px 0;
 	color:#a1a4b8;
 }
 .list ul li.highlight{
@@ -335,7 +405,8 @@ section{
 .list ul li .description{
 	float:left;
 	display:block;
-	width:400px;
+	max-width:400px;
+	min-width: 200px;
 	margin-left:100px;
 	line-height:24px;
 }
