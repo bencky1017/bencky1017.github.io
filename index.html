@@ -31,7 +31,13 @@
 				</div>
 			</div>
 			<div class="title">吟风极客</div>
-			<div class="text"><script src="https://m.seovx.com/api/sp/"></script></div>
+			<!-- <div class="text"><script src="https://m.seovx.com/api/sp/"></script></div> -->
+			<div class="text">
+				鱼和熊掌不可兼得，但单身和穷可以！
+				<script type="text/javascript">
+					$.get('https://api.muxiaoguo.cn/api/dujitang',{api_key:'9a1e323bbfc47ffe'},function(data,status){if (status='success') {$('.text').html(data.data.comment);}})
+				</script>
+			</div>
 			<hr class="hr">
 			<div class="foot">
 				<ul class="nav">
