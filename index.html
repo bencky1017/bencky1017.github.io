@@ -35,7 +35,9 @@
 			<div class="text">
 				鱼和熊掌不可兼得，但单身和穷可以！
 				<script type="text/javascript">
-					$.get('https://api.muxiaoguo.cn/api/dujitang',{api_key:'9a1e323bbfc47ffe'},function(data,status){if (status='success') {$('.text').html(data.data.comment);}})
+					// $.get('https://api.muxiaoguo.cn/api/dujitang',{api_key:'9a1e323bbfc47ffe'},function(data,status){if (status='success') {$('.text').html(data.data.comment);}});
+					$.get('https://v1.hitokoto.cn/?c=b&c=d&c=e&c=f&c=g&c=h&c=j&',function(data,status){if (status='success') {$('.text').html(data.data.comment);}})
+					
 				</script>
 			</div>
 			<hr class="hr">
