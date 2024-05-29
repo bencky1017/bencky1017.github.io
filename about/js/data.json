@@ -1,172 +1,266 @@
 ts={
-	"title":"作品集时间轴",
-	"worklist":[
+	"title": "作品集时间轴",
+	"worklist": [
 		{
-			"year":2022,
-			"list":[
+			"year": 2024,
+			"list": [
 				{
-					"date":"4月17日",
-					"title":"吟风工具箱",
-					"version":"v1.0.4",
-					"description":"<a href='https://bencky1017.github.io/tool/' target='_blank'>吟风工具箱</a>，不仅创造工具，还是工具的搬运工。",
-					"highlight":0
+					"date": "4月22日",
+					"title": "🐵油猴插件🧩",
+					"version": "v2.0.0",
+					"description": "浏览器插件，油猴脚本，合法解除一些限制，便捷用户操作。部分已上传👉<a href='https://greasyfork.org/zh-CN/users/920314' target='_blank'>greasyfork.org</a>👈",
+					"highlight": 1
+				},
+				{
+					"date": "4月2日",
+					"title": "JSON-Viewer_zh",
+					"version": "v0.18.2",
+					"description": "个人汉化版<a href='https://bencky1017.github.io/jsonviewer_zh/' target='_blank'>JSON-Viewer_zh</a>浏览器插件，提供原文件下载，原作者：<a href='https://github.com/tulios' target='_blank' style='color:#ec6a13'>@tulios</a>）",
+					"highlight": 0
+				},
+				{
+					"date": "3月11日",
+					"title": "lanchat",
+					"version": "v0.0.1",
+					"description": "<a href='https://bencky1017.github.io/lanchat/' target='_blank'>局域网聊天工具</a>，局域网聊天工具（本地版）：使用Node.js搭建后台服务，用户、聊天信息存储在localStorage中。（因为没有服务器，暂时线上无法使用）",
+					"highlight": 0
+				},
+				{
+					"date": "1月13日",
+					"title": "name",
+					"version": "v1.0.0",
+					"description": "根据生日生成一个<a href='https://bencky1017.github.io/name/' target='_blank'>古风名字</a>（基础版）",
+					"highlight": 0
 				},
 			]
 		},
 		{
-			"year":2021,
-			"list":[
+			"year": 2023,
+			"list": [
 				{
-					"date":"8月4日~8月9日",
-					"title":"Kent Game",
-					"version":"v1.0.0",
-					"description":"仿制Nazo Game 而制作的<a href='https://bencky1017.github.io/KentGame/index.html' target='_blank'>Kent Game 网页解密游戏</a>，设计有12道谜题，需要一定的网页知识。",
-					"highlight":0
+					"date": "12月21日",
+					"title": "codesnippet",
+					"version": "v1.0.3",
+					"description": "<a href='https://bencky1017.github.io/codesnippet/' target='_blank'>Code Snippet</a>：不同语言的代码片段、自定义模块、可引用库/包等。包含Python、HTML、JavaScript、CSS……",
+					"highlight": 0
 				},
 				{
-					"date":"8月24日",
-					"title":"YF吟风导航",
-					"version":"v2.2.3",
-					"description":"收录了大部分自己使用的网页：<a href='https://bencky1017.github.io/nav/' target='_blank'>YF吟风导航</a>",
-					"highlight":0
+					"date": "8月26日",
+					"title": "随机图片",
+					"version": "v1.0.0",
+					"description": "生成<a href='https://bencky1017.github.io/randpic/' target='_blank'>随机图片</a>，根据相关参数进行生成，可以直接网页生成，也可以下载到本地通过node.js运行服务端，通过请求方式获取随机图片",
+					"highlight": 1
 				},
 				{
-					"date":"9月16日",
-					"title":"Endless-bugs",
-					"version":"v2.2.3",
-					"description":"<a href='https://bencky1017.github.io/endless-bugs/' target='_blank'>改不完的bug</a>，一个有规律的结构简单内容复杂的解谜游戏。只有开关两个选项，共十组，全部打开即为成功。",
-					"highlight":0
+					"date": "7月11日",
+					"title": "GodEnvoy",
+					"version": "v0.0.14",
+					"description": "<a href='https://bencky1017.github.io/GodEnvoy/' target='_blank'>天神使者</a>，本人正在开发中的一款RogueLike风格游戏，因为懒，还没有继续写完",
+					"highlight": 0
 				},
 				{
-					"date":"10月1日",
-					"title":"追更日历",
-					"version":"v1.0.0",
-					"description":"<a href='https://bencky1017.github.io/followupdate/person/' target='_blank'>追更日历</a>，添加你想追的电视剧、动漫或综艺，添加在对应的日期序列中，每次查看页面即可知道哪天有更新，功能有待完善。",
-					"highlight":0
+					"date": "6月29日",
+					"title": "罗马数字转换",
+					"version": "v1.0.0",
+					"description": "<a href='https://bencky1017.github.io/roman/' target='_blank'>罗马数字转换</a>，数字转换为罗马数字，全网唯一完整转换系统，符合标准罗马数字规则，同时附带作者做定义便于显示与阅读的罗马字符格式",
+					"highlight": 1
+				},
+				{
+					"date": "5月19日",
+					"title": "Shuang",
+					"version": "v1.0.0",
+					"description": "<a href='https://bencky1017.github.io/shuang/' target='_blank'>双拼输入法练习</a>，直接用了别人的代码，可以进行双拼输入法练习<br/>（原作者：<a href='https://github.com/BlueSky-07' target='_blank' style='color:#ec6a13'>@BlueSky-07</a>）",
+					"highlight": 0
+				},
+				{
+					"date": "5月3日",
+					"title": "freepoker",
+					"version": "v0.1.0",
+					"description": "<a href='https://bencky1017.github.io/freepoker/' target='_blank'>自由扑克</a>，自己设定出牌规则、牌面大小……写了部分功能，但是还没有写完，可以查看一个大概的界面功能",
+					"highlight": 0
+				},
+			]
+		},
+		{
+			"year": 2022,
+			"list": [
+				{
+					"date": "4月17日",
+					"title": "吟风工具箱",
+					"version": "v1.0.4",
+					"description": "<a href='https://bencky1017.github.io/tool/' target='_blank'>吟风工具箱</a>，不仅创造工具，还是工具的搬运工",
+					"highlight": 0
+				},
+				{
+					"date": "2月8日",
+					"title": "Crypto加密算法",
+					"version": "v1.0.2",
+					"description": "<a href='https://bencky1017.github.io/crypto/' target='_blank'>Crypto加密算法</a>，包含了base64,MD5,CRC32等加密算法，部分支持Unicode编码",
+					"highlight": 0
+				},
+			]
+		},
+		{
+			"year": 2021,
+			"list": [
+				{
+					"date": "10月1日",
+					"title": "追更日历",
+					"version": "v1.0.0",
+					"description": "<a href='https://bencky1017.github.io/followupdate/person/' target='_blank'>追更日历</a>，添加你想追的电视剧、动漫或综艺，添加在对应的日期序列中，每次查看页面即可知道哪天有更新，功能有待完善",
+					"highlight": 0
+				},
+				{
+					"date": "9月30日",
+					"title": "幻兽合成计算器",
+					"version": "v1.0.8",
+					"description": "<a href='https://bencky1017.github.io/hscalc/' target='_blank'>幻兽合成计算器</a>，幻兽爱合成计算器，快捷计算合成数量以及合成指定目标数所需要的低等级数量。支持添加中间等级的已有数量，以此来调整最后的精确结果",
+					"highlight": 0
+				},
+				{
+					"date": "9月16日",
+					"title": "Endless-bugs",
+					"version": "v2.2.3",
+					"description": "<a href='https://bencky1017.github.io/endless-bugs/' target='_blank'>改不完的bug</a>，一个有规律的结构简单内容复杂的解谜游戏。只有开关两个选项，共十组，全部打开即为成功",
+					"highlight": 0
+				},
+				{
+					"date": "8月24日",
+					"title": "YF吟风导航",
+					"version": "v2.2.3",
+					"description": "收录了大部分自己使用的网页：<a href='https://bencky1017.github.io/nav/' target='_blank'>YF吟风导航</a>",
+					"highlight": 1
+				},
+				{
+					"date": "8月4日~8月9日",
+					"title": "Kent Game",
+					"version": "v1.0.0",
+					"description": "仿制Nazo Game 而制作的<a href='https://bencky1017.github.io/KentGame/index.html' target='_blank'>Kent Game 网页解密游戏</a>，设计有12道谜题，需要一定的网页知识",
+					"highlight": 0
 				}
 			]
 		},
 		{
-			"year":2020,
-			"list":[
+			"year": 2020,
+			"list": [
 				{
-					"date":"8月5日",
-					"title":"个人简历网页版",
-					"version":"v1",
-					"description":"2020年8月5日制作网页简历，开始找工作，人生开启新阶段！",
-					"highlight":1
+					"date": "10月8日",
+					"title": "Numeration-System",
+					"version": "v1.0.0",
+					"description": "因为实习工作需要，设计便捷的转换工具：<a href='https://bencky1017.github.io/Numeration-System/' target='_blank'>在线颜色十六进制转换十进制</a>",
+					"highlight": 0
 				},
 				{
-					"date":"9月2日",
-					"title":"句容NF战队官网",
-					"version":"v1.0.0",
-					"description":"Night Fighting 小分队专用网站",
-					"highlight":0
+					"date": "9月2日",
+					"title": "句容NF战队官网",
+					"version": "v1.0.0",
+					"description": "Night Fighting 小分队专用网站，<a href=\"javascript:(function(){var pwd = prompt('请输入权限码：');if(pwd){ if (mdbk(pwd)=='2a3c8a97dd3c1dc652189df199ddc153') {if(confirm('权限正确！点击确定跳转……【若未打开，可能被浏览器重定向拦截】')){window.open('https://bencky1017.github.io/JRNF/')};}} else {};})()\">点击跳转</a>",
+					"highlight": 0
 				},
 				{
-					"date":"10月8日",
-					"title":"Numeration-System",
-					"version":"v1.0.0",
-					"description":"因为实习工作需要，设计便捷的转换工具：<a href='https://bencky1017.github.io/Numeration-System/' target='_blank'>在线颜色十六进制转换十进制</a>",
-					"highlight":0
+					"date": "8月5日",
+					"title": "个人简历网页版",
+					"version": "v1.0",
+					"description": "2020年8月5日制作网页简历，开始找工作，人生开启新阶段！",
+					"highlight": 1
 				}
 			]
 		},
 		{
-			"year":2019,
-			"list":[
+			"year": 2019,
+			"list": [
 				{
-					"date":"8月6日",
-					"title":"上传网页源码",
-					"version":"",
-					"description":"搜集的一些网页工具",
-					"highlight":0
+					"date": "9月7日",
+					"title": "Ubuntu虚拟机搭建",
+					"version": "",
+					"description": "<a href='https://blog.csdn.net/qq_42372031/article/details/100588245?from=https://bencky1017.github.io/about/' target='_blank'>CSDN第二篇破万浏览文章</a>，帮助了很多初学者安装Linux系统",
+					"highlight": 0
 				},
 				{
-					"date":"9月7日",
-					"title":"Ubuntu虚拟机搭建",
-					"version":"",
-					"description":"<a href='https://blog.csdn.net/qq_42372031/article/details/100588245?from=https://bencky1017.github.io/about/' target='_blank'>CSDN第二篇破万浏览文章</a>，帮助了很多初学者安装Linux系统",
-					"highlight":0
+					"date": "8月6日",
+					"title": "上传网页源码",
+					"version": "",
+					"description": "搜集的一些网页工具",
+					"highlight": 0
 				}
 			]
 		},
 		{
-			"year":2018,
-			"list":[
+			"year": 2018,
+			"list": [
 				{
-					"date":"12月15日",
-					"title":"C语言判断完数(完整版)",
-					"version":"",
-					"description":"<a href='https://blog.csdn.net/qq_42372031/article/details/85016200?from=https://bencky1017.github.io/about/' target='_blank'>CSDN首篇破万文章</a>",
-					"highlight":1
+					"date": "12月15日",
+					"title": "C语言判断完数(完整版)",
+					"version": "",
+					"description": "<a href='https://blog.csdn.net/qq_42372031/article/details/85016200?from=https://bencky1017.github.io/about/' target='_blank'>CSDN首篇破万文章</a>",
+					"highlight": 1
 				}
 			]
 		},
 		{
-			"year":2017,
-			"list":[
+			"year": 2017,
+			"list": [
 				{
-					"date":"2月22日",
-					"title":"首次搭建个人博客",
-					"version":"v1.0.0",
-					"description":"在大佬学长带领下，开启程序员之路，一起热血同行！",
-					"highlight":1
+					"date": "2月22日",
+					"title": "首次搭建个人博客",
+					"version": "v1.0.0",
+					"description": "在大佬学长带领下，开启程序员之路，一起热血同行！",
+					"highlight": 1
 				}
 			]
 		}
 	]
 }
 wk={
-	"title":"作品展示",
-	"webworklist":[
+	"title": "作品展示",
+	"webworklist": [
 		{
-			"src":"img/01.jpg",
-			"link":"https://bencky1017.github.io/nav/",
-			"item_title":"吟风导航",
-			"item_mask":"聚合了多个常用搜索、视频、音乐、解析等功能于一体"
+			"src": "img/01.jpg",
+			"link": "https://bencky1017.github.io/nav/",
+			"item_title": "吟风导航",
+			"item_mask": "聚合了多个常用搜索、视频、音乐、解析等功能于一体"
 		},
 		{
-			"src":"img/02.jpg",
-			"link":"https://bencky1017.github.io/tool/",
-			"item_title":"吟风工具箱",
-			"item_mask":"吟风工具箱，不仅创造工具，还是工具的搬运工。没有乱七八糟的界面，只有工具列表，简约便捷"
+			"src": "img/02.jpg",
+			"link": "https://bencky1017.github.io/tool/",
+			"item_title": "吟风工具箱",
+			"item_mask": "吟风工具箱，不仅创造工具，还是工具的搬运工。没有乱七八糟的界面，只有工具列表，简约便捷"
 		},
 		{
-			"src":"img/03.jpg",
-			"link":"https://bencky1017.github.io/followupdate/person/",
-			"item_title":"追剧日历",
-			"item_mask":"追更日历，添加你想追的电视剧、动漫或综艺，添加在对应的日期序列中，每次查看页面即可知道哪天有更新"
+			"src": "img/03.jpg",
+			"link": "https://bencky1017.github.io/followupdate/person/",
+			"item_title": "追剧日历",
+			"item_mask": "追更日历，添加你想追的电视剧、动漫或综艺，添加在对应的日期序列中，每次查看页面即可知道哪天有更新"
 		},
 		{
-			"src":"img/04.jpg",
-			"link":"",
-			"item_title":"句容NF战队",
-			"item_mask":"句容NF战队专属网站，记录成员信息及活动内容"
+			"src": "img/04.jpg",
+			"link": "",
+			"item_title": "句容NF战队",
+			"item_mask": "句容NF战队专属网站，记录成员信息及活动内容"
 		},
 		{
-			"src":"img/05.jpg",
-			"link":"https://bencky1017.github.io/Numeration-System/",
-			"item_title":"颜色进制转换",
-			"item_mask":"颜色十六进制与十进制相互转换（个人需求）"
+			"src": "img/05.jpg",
+			"link": "https://bencky1017.github.io/Numeration-System/",
+			"item_title": "颜色进制转换",
+			"item_mask": "颜色十六进制与十进制相互转换（个人需求）"
 		},
 		{
-			"src":"img/06.jpg",
-			"link":"https://bencky1017.github.io/KentGame/index.html",
-			"item_title":"Kent Game",
-			"item_mask":"仿Nazo Game而制作的网页，题目内容为本人原创"
+			"src": "img/06.jpg",
+			"link": "https://bencky1017.github.io/KentGame/index.html",
+			"item_title": "Kent Game",
+			"item_mask": "仿Nazo Game而制作的网页，题目内容为本人原创"
 		},
 		{
-			"src":"img/07.jpg",
-			"link":"https://bencky1017.github.io/endless-bugs/",
-			"item_title":"改不完的Bug",
-			"item_mask":"改不完的bug，一个有规律的结构简单内容复杂的解谜游戏。只有开关两个选项，共十组，全部打开即为成功"
+			"src": "img/07.jpg",
+			"link": "https://bencky1017.github.io/endless-bugs/",
+			"item_title": "改不完的Bug",
+			"item_mask": "改不完的bug，一个有规律的结构简单内容复杂的解谜游戏。只有开关两个选项，共十组，全部打开即为成功"
 		},
 		{
-			"src":"img/08.jpg",
-			"link":"https://bencky1017.github.io/crypto/",
-			"item_title":"crypto加密算法库",
-			"item_mask":"这个库中包含了base64,MD5,CRC32等加密算法，部分支持Unicode编码"
+			"src": "img/08.jpg",
+			"link": "https://bencky1017.github.io/crypto/",
+			"item_title": "crypto加密算法库",
+			"item_mask": "这个库中包含了base64,MD5,CRC32等加密算法，部分支持Unicode编码"
 		}
 	]
 }
