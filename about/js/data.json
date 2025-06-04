@@ -145,9 +145,9 @@ ts={
 			"list": [
 				{
 					"date": "10月8日",
-					"title": "Numeration-System",
+					"title": "Color",
 					"version": "v1.0.0",
-					"description": "因为实习工作需要，设计便捷的转换工具：<a href='https://bencky1017.github.io/Numeration-System/' target='_blank'>在线颜色十六进制转换十进制</a>",
+					"description": "因为实习工作需要，设计便捷的转换工具：<a href='https://bencky1017.github.io/color/' target='_blank'>在线颜色十六进制转换十进制</a>",
 					"highlight": 0
 				},
 				{
@@ -240,7 +240,7 @@ wk={
 		},
 		{
 			"src": "img/05.jpg",
-			"link": "https://bencky1017.github.io/Numeration-System/",
+			"link": "https://bencky1017.github.io/color/",
 			"item_title": "颜色进制转换",
 			"item_mask": "颜色十六进制与十进制相互转换（个人需求）"
 		},
